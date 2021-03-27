@@ -24,7 +24,7 @@ for (var hour = 9; hour < 18; hour++) {
                 <textarea class="form-control text-area"></textarea>
                 <div class='input-group-append'>
                   <button class='save-button d-flex justify-center align-center'>
-                    <i class='far fa-save fa-2x save-icon'></i>
+                    <i class='far fa-save fa-2x save-icon'>SAVE</i>
                   </button>
                 </div>
               </div>
