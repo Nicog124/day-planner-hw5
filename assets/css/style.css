@@ -1,0 +1,85 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: lightskyblue;
+}
+
+textarea {
+  background-color: lightslategray;
+  width: 100%;
+  min-height: 5rem;
+  border: none;
+  resize: none;
+  color: black;
+  border-left: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: lightsteelblue;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.row {
+  margin-bottom: 1.25rem;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: lightsteelblue;
+  color: black;
+  border-top: 1px dashed black;
+}
+
+.past {
+  background-color: white;
+}
+
+.present {
+  background-color: orangered;
+}
+
+.future {
+  background-color: green;
+}
+
+.save-button {
+  border-left: 1px solid black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: lightseagreen;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.save-button:hover {
+  background-color: blue;
+}
+
+.disabled {
+  color: black;
+  background-color: white;
+  border-color: lightgray;
+  cursor: not-allowed;
+  pointer-events: none;
+}
