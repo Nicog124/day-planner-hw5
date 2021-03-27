@@ -33,7 +33,7 @@ for (var hour = 9; hour < 18; hour++) {
 }
 
 $.each($(".time-block"), function (index, value) {
-  let dateHour = $(value).attr("data-time");
+  var dateHour = $(value).attr("data-time");
   if (Number(dateHour) === m.hour()) {
     $(this).find("textarea").addClass("present");
   } else if (Number(dateHour) < m.hour()) {
