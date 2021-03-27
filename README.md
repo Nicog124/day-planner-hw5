@@ -3,8 +3,8 @@
 
 This assignment was a great wasy to learn more about local storage and moment.
 
-link 1
+https://nicog124.github.io/day-planner-hw5/
 
-link 2
+https://github.com/Nicog124/day-planner-hw5
 
 sc:
